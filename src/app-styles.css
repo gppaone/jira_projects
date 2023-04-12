@@ -1,0 +1,15 @@
+body {
+    padding:0 10px;
+}
+.logo {
+    width:130px;
+    margin-right:20px;
+}
+
+.card {
+    margin-top:10px;
+}
+
+.card-header {
+    font-weight:bold;
+}

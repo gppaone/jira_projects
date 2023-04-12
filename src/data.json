@@ -1,0 +1,517 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 50,
+    "total": 26,
+    "issues": [
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10177",
+            "self": "https://comtechsysdev.atlassian.net/rest/api/3/issue/10177",
+            "key": "CTUAPI-1",
+            "fields": {
+                "statuscategorychangedate": "2023-03-28T17:33:57.953-0400",
+                "issuetype": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/issuetype/10078",
+                    "id": "10078",
+                    "description": "Tasks track small, distinct pieces of work.",
+                    "iconUrl": "https://comtechsysdev.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "entityId": "61cce792-bdbd-4cd6-a082-82e2361e603e",
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "customfield_10030": null,
+                "project": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/project/10023",
+                    "id": "10023",
+                    "key": "CTUAPI",
+                    "name": "CTUAPI",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413",
+                        "24x24": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=small",
+                        "16x16": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=xsmall",
+                        "32x32": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10413?size=medium"
+                    },
+                    "projectCategory": {
+                        "self": "https://comtechsysdev.atlassian.net/rest/api/3/projectCategory/10003",
+                        "id": "10003",
+                        "description": "",
+                        "name": "Backend"
+                    }
+                },
+                "fixVersions": [],
+                "aggregatetimespent": null,
+                "customfield_10035": null,
+                "resolution": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/issue/CTUAPI-1/watchers",
+                    "watchCount": 1,
+                    "isWatching": false
+                },
+                "lastViewed": null,
+                "created": "2023-03-28T17:33:57.514-0400",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "customfield_10023": null,
+                "priority": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://comtechsysdev.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "customfield_10026": null,
+                "labels": [],
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i00108:",
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/user?accountId=557058%3Ac7b75f7f-a1ba-4e77-a44d-cdfb4333b8ec",
+                    "accountId": "557058:c7b75f7f-a1ba-4e77-a44d-cdfb4333b8ec",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png",
+                        "24x24": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png",
+                        "16x16": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png",
+                        "32x32": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png"
+                    },
+                    "displayName": "Matt Haught",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "updated": "2023-03-28T17:33:57.835-0400",
+                "status": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/status/10073",
+                    "description": "",
+                    "iconUrl": "https://comtechsysdev.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10073",
+                    "statusCategory": {
+                        "self": "https://comtechsysdev.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "update swagger api docs",
+                "creator": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/user?accountId=557058%3Ac7b75f7f-a1ba-4e77-a44d-cdfb4333b8ec",
+                    "accountId": "557058:c7b75f7f-a1ba-4e77-a44d-cdfb4333b8ec",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png",
+                        "24x24": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png",
+                        "16x16": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png",
+                        "32x32": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png"
+                    },
+                    "displayName": "Matt Haught",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/user?accountId=557058%3Ac7b75f7f-a1ba-4e77-a44d-cdfb4333b8ec",
+                    "accountId": "557058:c7b75f7f-a1ba-4e77-a44d-cdfb4333b8ec",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png",
+                        "24x24": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png",
+                        "16x16": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png",
+                        "32x32": "https://secure.gravatar.com/avatar/520ab373a8eff9d51259e451ac1e92ee?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-5.png"
+                    },
+                    "displayName": "Matt Haught",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10000": "{}",
+                "customfield_10001": null,
+                "customfield_10002": null,
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/issue/CTUAPI-1/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10029",
+            "self": "https://comtechsysdev.atlassian.net/rest/api/3/issue/10029",
+            "key": "ADOPT-4",
+            "fields": {
+                "statuscategorychangedate": "2023-03-22T11:41:28.898-0400",
+                "issuetype": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/issuetype/10129",
+                    "id": "10129",
+                    "description": "Tasks track small, distinct pieces of work.",
+                    "iconUrl": "https://comtechsysdev.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "entityId": "83553d0c-75bf-44ad-acca-2fa4e0d6ca59",
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "customfield_10030": null,
+                "project": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/project/10043",
+                    "id": "10043",
+                    "key": "ADOPT",
+                    "name": "Adopt IDF",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414",
+                        "24x24": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=small",
+                        "16x16": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=xsmall",
+                        "32x32": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=medium"
+                    },
+                    "projectCategory": {
+                        "self": "https://comtechsysdev.atlassian.net/rest/api/3/projectCategory/10000",
+                        "id": "10000",
+                        "description": "",
+                        "name": "Website"
+                    }
+                },
+                "fixVersions": [],
+                "aggregatetimespent": null,
+                "resolution": null,
+                "customfield_10035": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "lastViewed": null,
+                "watches": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/issue/ADOPT-4/watchers",
+                    "watchCount": 1,
+                    "isWatching": false
+                },
+                "created": "2023-03-22T11:41:28.623-0400",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://comtechsysdev.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "labels": [],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0005k:",
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "updated": "2023-04-12T13:05:56.455-0400",
+                "status": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/status/10133",
+                    "description": "",
+                    "iconUrl": "https://comtechsysdev.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10133",
+                    "statusCategory": {
+                        "self": "https://comtechsysdev.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "Add ability for users to check if item is urgent - email those to manager when submitted",
+                "creator": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/user?accountId=6409e827284786631002006a",
+                    "accountId": "6409e827284786631002006a",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "24x24": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "16x16": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "32x32": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png"
+                    },
+                    "displayName": "Greg Paone",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/user?accountId=6409e827284786631002006a",
+                    "accountId": "6409e827284786631002006a",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "24x24": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "16x16": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "32x32": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png"
+                    },
+                    "displayName": "Greg Paone",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": null,
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/issue/ADOPT-4/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10030",
+            "self": "https://comtechsysdev.atlassian.net/rest/api/3/issue/10030",
+            "key": "ADOPT-3",
+            "fields": {
+                "statuscategorychangedate": "2023-03-22T11:41:38.978-0400",
+                "issuetype": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/issuetype/10129",
+                    "id": "10129",
+                    "description": "Tasks track small, distinct pieces of work.",
+                    "iconUrl": "https://comtechsysdev.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "entityId": "83553d0c-75bf-44ad-acca-2fa4e0d6ca59",
+                    "hierarchyLevel": 0
+                },
+                "timespent": null,
+                "customfield_10030": null,
+                "project": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/project/10043",
+                    "id": "10043",
+                    "key": "ADOPT",
+                    "name": "Adopt IDF",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414",
+                        "24x24": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=small",
+                        "16x16": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=xsmall",
+                        "32x32": "https://comtechsysdev.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10414?size=medium"
+                    },
+                    "projectCategory": {
+                        "self": "https://comtechsysdev.atlassian.net/rest/api/3/projectCategory/10000",
+                        "id": "10000",
+                        "description": "",
+                        "name": "Website"
+                    }
+                },
+                "fixVersions": [],
+                "aggregatetimespent": null,
+                "customfield_10035": null,
+                "resolution": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/issue/ADOPT-3/watchers",
+                    "watchCount": 1,
+                    "isWatching": false
+                },
+                "lastViewed": null,
+                "created": "2023-03-22T11:41:38.603-0400",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://comtechsysdev.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "labels": [],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0005s:",
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "updated": "2023-04-12T13:05:56.126-0400",
+                "status": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/status/10133",
+                    "description": "",
+                    "iconUrl": "https://comtechsysdev.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10133",
+                    "statusCategory": {
+                        "self": "https://comtechsysdev.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "aggregatetimeestimate": null,
+                "customfield_10009": null,
+                "summary": "Add comment field on Issue list for manager to make notes on each issue.",
+                "creator": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/user?accountId=6409e827284786631002006a",
+                    "accountId": "6409e827284786631002006a",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "24x24": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "16x16": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "32x32": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png"
+                    },
+                    "displayName": "Greg Paone",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/user?accountId=6409e827284786631002006a",
+                    "accountId": "6409e827284786631002006a",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "24x24": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "16x16": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png",
+                        "32x32": "https://secure.gravatar.com/avatar/f192b12f89cf68be17141e7a2e5fb4f2?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGP-6.png"
+                    },
+                    "displayName": "Greg Paone",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": null,
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://comtechsysdev.atlassian.net/rest/api/3/issue/ADOPT-3/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        }
+    ]
+}
